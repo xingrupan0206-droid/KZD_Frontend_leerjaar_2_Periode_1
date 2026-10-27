@@ -1,0 +1,78 @@
+.services {
+  text-align: center;
+  padding: 70px 8%;
+  background-color: white;
+}
+
+.services-small-title {
+  color: #1264e8;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.services h1 {
+  font-size: 32px;
+  margin: 12px 0;
+  color: #292929;
+}
+
+.dots {
+  color: #bbb;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.services-intro {
+  font-size: 13px;
+  line-height: 2;
+  color: #444;
+  margin-bottom: 45px;
+}
+
+/* 4 blokken */
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.service-card {
+  width: 220px;
+}
+
+/* Blauwe cirkel */
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 20px;
+
+  background-color: #1264e8;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 28px;
+}
+
+.service-card span {
+  color: #1264e8;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.service-card h3 {
+  font-size: 14px;
+  margin: 12px 0 18px;
+  color: #333;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 13px;
+  line-height: 1.8;
+}
