@@ -1,7 +1,8 @@
 <script setup>
 import Header from './components/Header.vue'
 import Slider from './components/Slider.vue'
-
+import AboutUs from './components/AboutUs.vue'
+import Gallery from './components/Gallery.vue'
 
 </script>
 
@@ -10,6 +11,9 @@ import Slider from './components/Slider.vue'
 
   <Header/>
   <Slider/>
+  <AboutUs/>
+  <Gallery/>
+
 
   <main>
     <TheWelcome />
